@@ -179,16 +179,8 @@ if __name__ == "__main__":
             print(f"{green('3)')} Read from image")
             print(f"{green('4)')} Change file path")
             print(f"{green('5)')} Exit")
-            print("type 'h' to show options ")
             command = input('Enter a command (1-5): ')
-            if command == 'h':
-                print("\nOptions:")
-                print(f"{green('1)')} Write to image")
-                print(f"{green('2)')} Delete from image")
-                print(f"{green('3)')} Read from image")
-                print(f"{green('4)')} Change file path")
-                print(f"{green('5)')} Exit")
-            elif command == '1':
+            if command == '1':
                 write_to_image()
             elif command == '2':
                 delete_from_image()
